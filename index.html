@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>webRTC Video Chat</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+    <script type="text/javascript"></script>
+  </head>
+  <body>
+    <h1>webRTC Video Call App using Firebase</h1>
+    <video id="localVideo" autoplay muted  ></video>
+    <video id="remoteVideo" autoplay ></video>
+    <br>
+    <button id = 'startButton'>getUserMedia</button>
+    <button id = 'hangupButton'>stopLocalStream</button>
+    <button id = 'connectButton'>Connect</button>
+    <button id = 'sendButton'>SendMessages</button>
+    <br>
+    <br>
+    <h3>Username: yourId</h3>
+    <h4>Sent Messages</h4>
+    <textarea id="inbox" placeholder="Enter some text, then press Send."></textarea>
+    <h4>Received Messages</h4>
+    <textarea id="receive" disabled></textarea>
+    <script src="main.js"></script>
+  </body>
+</html>

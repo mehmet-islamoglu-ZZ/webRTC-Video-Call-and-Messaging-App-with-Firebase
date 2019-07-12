@@ -1,0 +1,20 @@
+body {
+  background-color: darkgrey;
+}
+h1{
+  font-size: 48;
+  font: Georgia;
+  color: black;
+}
+textarea {
+  color: #444;
+  font-size: 0.9em;
+  font-weight: 300;
+  height: 14.0em;
+  padding: 5px;
+  width: 21.0em;
+}
+video {
+  width: 30%;
+  height: 30%;
+}
